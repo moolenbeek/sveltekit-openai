@@ -1,0 +1,1 @@
+<h1 class="flex items-center justify-center">Open AI</h1>
