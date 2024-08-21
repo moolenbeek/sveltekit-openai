@@ -9,6 +9,7 @@ export default openai;
 
 const lat = '45.424721';
 const lon = '-75.695000';
+const date = Date();
 
 const completion = await openai.chat.completions.create({
 	model: 'gpt-4o-mini',
@@ -16,7 +17,7 @@ const completion = await openai.chat.completions.create({
 		{ role: 'system', content: 'You are a helpful assistant.' },
 		{
 			role: 'user',
-			content: `In one simple sentence what should I wear today? latitude = ${lat} longitude = ${lon}`
+			content: `In one simple sentence what should I wear today? latitude = ${lat} longitude = ${lon} date = ${date}`
 		}
 	]
 });
