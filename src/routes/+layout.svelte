@@ -1,6 +1,6 @@
 <script lang="ts">
-	import '../app.postcss';
-	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import "../app.postcss";
+	import { LightSwitch } from "@skeletonlabs/skeleton";
 </script>
 
 <div class="p-4">
